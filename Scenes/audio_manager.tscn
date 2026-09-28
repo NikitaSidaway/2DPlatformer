@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://uw8en44fa2ec"]
+
+[node name="AudioManager" type="Node2D" unique_id=1453187201]
+
+[node name="MusicPlayer" type="AudioStreamPlayer2D" parent="." unique_id=1537809181]
+
+[node name="UISounds" type="AudioStreamPlayer2D" parent="." unique_id=130901099]
+
+[node name="SFXPlayer" type="AudioStreamPlayer2D" parent="." unique_id=1969105672]
