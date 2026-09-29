@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://d3mn4qrjwrjy6" path="res://Scenes/ui.tscn" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://d0n1e17o5k7t5" path="res://Scenes/level_holder.tscn" id="2_8gbba"]
 [ext_resource type="PackedScene" uid="uid://ebiigexhfwt5" path="res://Scenes/player.tscn" id="3_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://bp7k0a2jq4vuy" path="res://camera_2d.tscn" id="4_jjvhh"]
 
 [node name="Main" type="Node2D" unique_id=83157939]
 
@@ -11,3 +12,5 @@
 [node name="LevelHolder" parent="." unique_id=1515068165 instance=ExtResource("2_8gbba")]
 
 [node name="Player" parent="." unique_id=1409409927 instance=ExtResource("3_jjvhh")]
+
+[node name="Camera2D" parent="." unique_id=1214668432 instance=ExtResource("4_jjvhh")]
