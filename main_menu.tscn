@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://bn1huwmm03fd"]
+
+[node name="MainMenu" type="Control" unique_id=841229817]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayButton" type="Button" parent="." unique_id=1995931906]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 123.0
+offset_right = 304.0
+offset_bottom = 154.0
+text = "NEW GAME"
+
+[node name="LevelSelectorButton" type="Button" parent="." unique_id=1102425048]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 157.0
+offset_right = 304.0
+offset_bottom = 188.0
+text = "LEVEL SELECT"
+
+[node name="CreditsButton" type="Button" parent="." unique_id=153469401]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 191.0
+offset_right = 304.0
+offset_bottom = 222.0
+text = "CREDITS"
+
+[node name="ExitButton" type="Button" parent="." unique_id=1843158296]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 225.0
+offset_right = 304.0
+offset_bottom = 256.0
+text = "EXIT"
+
+[node name="GameName" type="TextEdit" parent="." unique_id=1811928468]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 24.0
+offset_right = 382.0
+offset_bottom = 99.0
+theme_override_font_sizes/font_size = 46
+text = "GAME TITLE"
