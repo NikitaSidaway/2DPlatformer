@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://dtikcob3deten" path="res://Scenes/main.gd" id="1_kry3j"]
 [ext_resource type="PackedScene" uid="uid://d0n1e17o5k7t5" path="res://Scenes/level_holder.tscn" id="2_8gbba"]
 [ext_resource type="PackedScene" uid="uid://ebiigexhfwt5" path="res://Scenes/player.tscn" id="3_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://dfbaci3dfs0q3" path="res://Levels/level_0.tscn" id="4_21xkr"]
 [ext_resource type="PackedScene" uid="uid://bp7k0a2jq4vuy" path="res://camera_2d.tscn" id="4_jjvhh"]
 
 [node name="Main" type="Node2D" unique_id=83157939]
@@ -12,6 +13,8 @@ script = ExtResource("1_kry3j")
 [node name="UI" parent="." unique_id=1459066062 instance=ExtResource("1_jjgbg")]
 
 [node name="LevelHolder" parent="." unique_id=1515068165 instance=ExtResource("2_8gbba")]
+
+[node name="Level0" parent="LevelHolder" unique_id=707927320 instance=ExtResource("4_21xkr")]
 
 [node name="Player" parent="." unique_id=1409409927 instance=ExtResource("3_jjvhh")]
 position = Vector2(240, 130)
