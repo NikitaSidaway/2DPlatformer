@@ -3,14 +3,19 @@
 [ext_resource type="PackedScene" uid="uid://d3mn4qrjwrjy6" path="res://Scenes/ui.tscn" id="1_jjgbg"]
 [ext_resource type="Script" uid="uid://dtikcob3deten" path="res://Scenes/main.gd" id="1_kry3j"]
 [ext_resource type="PackedScene" uid="uid://d0n1e17o5k7t5" path="res://Scenes/level_holder.tscn" id="2_8gbba"]
+[ext_resource type="PackedScene" uid="uid://bn1huwmm03fd" path="res://main_menu.tscn" id="3_344ge"]
 [ext_resource type="PackedScene" uid="uid://ebiigexhfwt5" path="res://Scenes/player.tscn" id="3_jjvhh"]
 [ext_resource type="PackedScene" uid="uid://dfbaci3dfs0q3" path="res://Levels/level_0.tscn" id="4_21xkr"]
 [ext_resource type="PackedScene" uid="uid://bp7k0a2jq4vuy" path="res://camera_2d.tscn" id="4_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://uw8en44fa2ec" path="res://Scenes/audio_manager.tscn" id="7_6bp64"]
 
 [node name="Main" type="Node2D" unique_id=83157939]
 script = ExtResource("1_kry3j")
 
 [node name="UI" parent="." unique_id=1459066062 instance=ExtResource("1_jjgbg")]
+
+[node name="MainMenu" parent="UI" unique_id=841229817 instance=ExtResource("3_344ge")]
+layout_mode = 1
 
 [node name="LevelHolder" parent="." unique_id=1515068165 instance=ExtResource("2_8gbba")]
 
@@ -21,3 +26,7 @@ position = Vector2(240, 130)
 
 [node name="Camera2D" parent="." unique_id=1214668432 instance=ExtResource("4_jjvhh")]
 position = Vector2(240, 135)
+
+[node name="AudioManager" parent="." unique_id=1453187201 instance=ExtResource("7_6bp64")]
+
+[editable path="AudioManager"]
